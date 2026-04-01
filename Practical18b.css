@@ -1,0 +1,86 @@
+/* Basic reset */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+}
+
+/* Header */
+.header {
+  background-color: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Main content */
+.content {
+  width: 60%;
+  margin: 20px auto;
+}
+
+/* Form box */
+.regForm {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Inputs */
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+/* Radio & checkbox inline */
+.gender input,
+.hobbies input {
+  width: auto;
+  margin-right: 5px;
+}
+
+/* Buttons */
+.SubRe {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.SubRe input {
+  padding: 8px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Submit button */
+.SubRe input[type="submit"] {
+  background-color: #28a745;
+  color: white;
+}
+
+/* Reset button */
+.SubRe input[type="reset"] {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #4a90e2;
+  color: white;
+  margin-top: 20px;
+}
